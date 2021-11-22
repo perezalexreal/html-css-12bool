@@ -15,3 +15,28 @@
     flex-wrap: wrap;
 }
 
+h1 {
+    margin: 20px 0;
+}
+
+.box {
+    height: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box.blue {
+    background-color:royalblue ;
+    border: 1px #fff solid;
+}
+
+.box.green {
+    margin: 0 2px;
+    background-color:greenyellow;
+}
+
+.box.blue.end {
+    padding: 35px 12px;
+}
